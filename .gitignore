@@ -14,7 +14,7 @@ randomforest.pkl
 # .gitignore
 .venv/
 .venv
-*data*
+# *data*
 # *model*
 *venv*
 *cache*
