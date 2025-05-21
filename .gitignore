@@ -1,0 +1,27 @@
+<<<<<<< HEAD
+# .gitignore
+.venv/
+.venv
+*data*
+# *model*
+*venv*
+*cache*
+secrets.toml
+test.py
+*.pyc
+randomforest.pkl
+
+=======
+# .gitignore
+.venv/
+.venv
+*data*
+# *model*
+*venv*
+*cache*
+secrets.toml
+test.py
+*.pyc
+randomforest.pkl
+
+>>>>>>> d76d1b3ec2a5e7af2838792125118d9c40250320
