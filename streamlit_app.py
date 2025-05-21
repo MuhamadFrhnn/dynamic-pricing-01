@@ -307,8 +307,16 @@ def main():
                     'historical_cost':[historical_cost],
                     'number_of_orders':[number_of_orders]})
                 
+                # #Metrik evaluasi model
+                # r2_score = r2_score()
+                # root_mean_squared_error =
+                # mean_absolute_error
+                # mean_squared_error =
+
+
                 st.session_state.final_data = pd.concat([st.session_state.final_data, data_submitted], ignore_index=True)
                 st.success(f"Harga yang diprediksi untuk {product_id} di {product_category_enc} untuk pelanggan yang tinggal di {customer_state} adalah: Rp {price:,.0f}")
+                st.write("Hasil Evaluasi Model:")
             except ValueError as e:
                 st.error(f"Error: {e}. Pastikan semua input valid.")
         elif submitted and product_id is None:
