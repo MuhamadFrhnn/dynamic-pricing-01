@@ -14,7 +14,7 @@ randomforest.pkl
 # .gitignore
 .venv/
 .venv
-# *data*
+*e-commerce_transaction*
 # *model*
 *venv*
 *cache*
